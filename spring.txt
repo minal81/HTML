@@ -1,0 +1,20 @@
+Step 1
+file -> new -> other -> java -> project
+
+
+Step 2
+package explore -> your project -> new -> folders ->jars (create file)
+
+Step 3
+https://commons.apache.org/proper/commons-logging/download_logging.cgi
+(download ->commons logging 1.2-bin.zip -> extract file ->  jar filecopy in c drive -> add that jar file in project
+
+https://repo.spring.io/ui/native/release/org/springframework/spring/4.1.4.RELEASE/  (select 1rd option)
+extract file -> copy file in c drive -> import that file in project
+
+
+Step 4
+new -> package ->springEx
+new -> class ->SpringExample
+src -> new -> xml -> SpringExampleBean->(https://docs.spring.io/spring-framework/docs/4.2.x/spring-framework-reference/html/xsd-configuration.html)
+src ->new -> class -> SpringExamMain

@@ -1,0 +1,31 @@
+<html>
+	<body>
+
+
+		<div id="result"></div>
+		<div id="resultcount"></div>
+		<button onclick="clickCounter()" type="button">Click me!!</button>
+		<script>
+			function clickCounter()
+			{
+				if(typeof(Storage)!=="undefined")
+				{
+					localStorage.setItem("lastname","minal");
+					document.getElementById("result").innerHTML=localStorage.getItem("lastname");
+					if(localStorage.clickcount)
+						localStorage.clickcount=Number(localStorage.clickcount)+1;
+					else
+						localStorage.clickcount=1;
+					document.getElementById("resultcount").innerHTML=localStorage.clickcount+"  Times";
+				}
+				else
+				{
+					document.getElementById("result").innerHTML="Sorry,your browser does not support web storage!!!";
+				}
+			}
+		</script>
+
+	</body>
+
+
+</html>

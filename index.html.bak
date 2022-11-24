@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+<title>HTML INTRODUCTION</title>
+
+	</head>
+	<body>
+<h3>---------------LINK AND LOGICAL TAG----------------------------</h3>
+	<strong>click on below link to go on google tab</strong>
+
+	<a href="https://www.google.com/"><b>GOOGLE</b></a>
+<h3>---------------PARAGRAPTH AND PHYSICAL TAG AND BACKSPACE--------------------</h3>
+
+	<p><b>Google</b>, in full Google &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  LLC formerly Google Inc. (1998–2017), American search engine company, founded in 1998 by Sergey Brin and Larry Page, that is a subsidiary of the holding company Alphabet Inc.</p>
+
+
+
+<h3>-----------------HEADING TYPES-------------------------------------</h3>
+	<h1>GOOD MORNING</h1>
+	<h2>GOOD MORNING</h2>
+	<h3>GOOD MORNING</h3>
+	<h4>GOOD MORNING</h4>
+	<h5>GOOD MORNING</h5>
+	<h6>GOOD MORNING</h6>
+
+<h3>--------------------BASIC TABLE------------------------------------</h3>
+
+<table style="width:25%" table border="1">
+	 
+	
+	<tr>
+		<th>FirstName</th>
+		<th>LastName</th>
+		<th>Age</th>
+		<th>Education</th>
+	</tr>
+	<tr>
+		<th >MINAL</th>
+		<th>GAVHANE</th>
+		<th>22</th>
+		<th>BE TECH</th>
+	</tr>
+	<tr>
+		<th>MANISH</th>
+		<th>PATHAK</th>
+		<th>22</th>
+		<th>BE TECH</th>
+	</tr>
+</table>
+
+<h3>-------------------------list------------------------</h3>
+
+<ul type ="square">
+	<li>Beetroot</li>
+	<li>carrot</li>
+	<li>radish</li>
+	<li>tomato</li>
+
+<h3>-----------------------Description list------------------------</h3>
+
+<dl>
+	<dt>1.tea</dt>
+	<dd>-hot drink</dd>
+	<dt>2.Coffee</dt>
+	<dd>-cold drink</dd>
+</dt>
+
+<h3>-----------------------Order list------------------------</h3>
+
+<ol type ="1">
+	<li>Beetroot</li>
+	<li>carrot</li>
+	<li>radish</li>
+	<li>tomato</li>
+	
+
+<ol type ="I">
+	<li>Beetroot</li>
+	<li>carrot</li>
+	<li>radish</li>
+	<li>tomato</li>
+	
+
+
+	</body>
+</html>

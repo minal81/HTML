@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script>
+			function getName()
+			{
+				id=document.getElementById("Id").value;
+				Fname=document.getElementById("txtFName").value;
+				Lname=document.getElementById("txtLName").value;
+				document.write(id+" "+Fname+" "+Lname );
+				alert("Welcome to javascript");
+				confirm("Do You Wnat To Continue");
+				alert("Enter the number for addition");
+				a=Number(prompt("Enter The first value"));
+				b=Number(prompt("Enter teh second value"));
+				
+				alert("addition is:  "+(a+b));
+			}
+			
+		</script>
+	</head>
+	<body>
+		<form>
+			Id<input type="text" id="Id" value=""><br>
+			FirstName<input type="text" id="txtFName" value=""><br>
+			LastName<input type="text" id="txtLName" value=""><br>
+			<input type="button" onclick="getName()" value="GET NAME">
+		</form>
+	</body>
+</html>

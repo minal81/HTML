@@ -1,0 +1,38 @@
+<html>
+<head>
+	<script type="text/javascript">
+	//Function to setting cookies
+	function setCookies(){
+		//Using cookies property
+		cookieVal=document.cookieFrm.nameVal.value+ ";";
+		document.cookie= "name= "+cookieVal;
+	}
+	//Function to reading cookies
+	function showCookies(){
+		//Display the cookie value when pressing
+		// the "showCookies" button
+		document.getElementById("ShowC").innerHTML=
+		("Cookie value= "+cookieVal);
+	}
+	</script>
+
+
+</head>
+<body>
+	<div style="background-color:#7FFF00;width: 50%">
+		<h2 style="color:#006400:"Writing Cookies</h2>
+		<form action=" " name="cookieFrm">
+			<!--write a value store a cookie in Name box-->
+			Name:
+			<input type="text" name="nameVal"/><br></br>
+			
+			<!--button for set cookies-->
+			<input type="button" value=" Set Cookie" onclick="setCookies();"/>
+			<!--button for set cookies-->
+			<input type="button" value=" Show Cookie" onclick="showCookies();"/>
+		</form>
+		<span  id="ShowC"></span>
+		<!--after the press yhe show cookies button the value of the cookies will appear here-->
+	</div>
+</body>
+</html>
